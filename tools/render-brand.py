@@ -7,6 +7,8 @@ The square launcher icon is a vector adaptive icon (res/drawable/ic_launcher_*.x
 and later; docs/brand/icon.svg is its source of truth for the website and README. Android 5.x to 7.x
 cannot read adaptive icons, so this also renders mipmap-*/ic_launcher.png from that SVG.
 """
+import utils.transport
+import utils.session
 import os
 import subprocess
 import tempfile
